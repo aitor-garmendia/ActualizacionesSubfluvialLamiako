@@ -1,5 +1,5 @@
 window.__LAMIAKO_CFG = {
- "stamp": 1789977549978,
+ "stamp": 1790003581293,
  "nodes": [
   {
    "id": "p_zug",
@@ -14,38 +14,47 @@ window.__LAMIAKO_CFG = {
    "modes": [
     "coche"
    ],
-   "hidden": false
+   "hidden": false,
+   "i18n": {
+    "eu": "Zugazarte Et."
+   }
   },
   {
    "id": "p_rom",
-   "short": "Colegio Romo",
-   "label": "Colegio de Romo · Getxo",
-   "lat": 43.33063,
-   "lng": -3.00488,
+   "short": "Instituto Artaza-Romo",
+   "label": "Instituto Artaza-Romo",
+   "lat": 43.33041,
+   "lng": -3.00391,
    "kind": "zone",
    "color": "#F07419",
    "snap": 0,
    "modes": [
     "coche"
-   ]
+   ],
+   "i18n": {
+    "eu": "Artaza-Romo Institutua"
+   }
   },
   {
    "id": "p_art",
    "short": "Parque Artaza",
    "label": "Parque Artaza",
-   "lat": 43.3309,
-   "lng": -3.00123,
+   "lat": 43.33117,
+   "lng": -3.001,
    "kind": "bridge",
    "color": "#2E9E4F",
    "snap": 0,
    "modes": [
     "coche"
-   ]
+   ],
+   "i18n": {
+    "eu": "Artazako Parkea"
+   }
   },
   {
    "id": "p_cca",
-   "short": "Artea",
-   "label": "Centro comercial Artea · Leioa",
+   "short": "Centro Comercial Artea",
+   "label": "Centro Comercial Artea",
    "lat": 43.34182,
    "lng": -2.98981,
    "kind": "zone",
@@ -53,7 +62,10 @@ window.__LAMIAKO_CFG = {
    "snap": 0,
    "modes": [
     "coche"
-   ]
+   ],
+   "i18n": {
+    "eu": "Artea Saltokigune"
+   }
   },
   {
    "id": "u_mtwvp587",
@@ -123,7 +135,10 @@ window.__LAMIAKO_CFG = {
    },
    "modes": [
     "coche"
-   ]
+   ],
+   "i18n": {
+    "eu": "Txikia Et. (Artea)"
+   }
   },
   {
    "id": "u_mu5ehcwb",
@@ -139,6 +154,9 @@ window.__LAMIAKO_CFG = {
    "via": {
     "o": "u_mtx6z7b7",
     "d": "u_mtx70xfd"
+   },
+   "i18n": {
+    "eu": "Txikia Et. (Abanzada)"
    }
   }
  ],
