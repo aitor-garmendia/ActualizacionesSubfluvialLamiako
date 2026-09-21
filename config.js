@@ -1,5 +1,5 @@
 window.__LAMIAKO_CFG = {
- "stamp": 1789736982028,
+ "stamp": 1789977549978,
  "nodes": [
   {
    "id": "p_zug",
@@ -242,7 +242,19 @@ window.__LAMIAKO_CFG = {
    "kicker": "F1 · ENE 2027 – AGO 2027",
    "title": "Inicio de obra",
    "body": "Implantación de la obra y trabajos en la rotonda de Artaza. Se cierra el paseo central del parque y los peatones se desvían por el borde norte.",
-   "accent": "#C8102E"
+   "accent": "#C8102E",
+   "i18n": {
+    "eu": {
+     "kicker": "F1 · 2027 URT – 2027 ABU",
+     "title": "Obraren hasiera",
+     "body": "Obraren ezarpena eta Artazako biribilgunean lanak. Parkeko erdiko pasealekua ixten da eta oinezkoak iparraldeko ertzetik desbideratzen dira."
+    },
+    "en": {
+     "kicker": "F1 · JAN 2027 – AUG 2027",
+     "title": "Works begin",
+     "body": "Site set-up and work on the Artaza roundabout. The central park promenade closes and pedestrians are diverted along the northern edge."
+    }
+   }
   },
   {
    "id": "c2",
@@ -250,7 +262,19 @@ window.__LAMIAKO_CFG = {
    "kicker": "F2 · SEP 2027 – DIC 2028",
    "title": "Obra avanzada",
    "body": "Estructuras y nuevo enlace. El tráfico circula por carriles provisionales y se corta la ribera de Udondo, así que los trayectos por la margen derecha se alargan.",
-   "accent": "#C8102E"
+   "accent": "#C8102E",
+   "i18n": {
+    "eu": {
+     "title": "Obra aurreratua",
+     "kicker": "F2 · 2027 IRA – 2028 ABE",
+     "body": "Egiturak eta lotune berria. Trafikoa behin-behineko erreietatik doa eta Udondoko ibaiertza ixten da, beraz eskuin ertzeko ibilbideak luzatu egiten dira."
+    },
+    "en": {
+     "kicker": "F2 · SEP 2027 – DEC 2028",
+     "title": "Works advanced",
+     "body": "Structures and the new junction. Traffic runs on temporary lanes and the Udondo riverside is closed, so journeys along the right bank get longer."
+    }
+   }
   },
   {
    "id": "c3",
@@ -258,7 +282,19 @@ window.__LAMIAKO_CFG = {
    "kicker": "F3 · 2029",
    "title": "Proyecto terminado",
    "body": "Todo abierto: itinerario peatonal y ciclista continuo, nuevos accesos al metro y a las paradas de autobús, y menos ruido de tráfico que antes de la obra.",
-   "accent": "#C8102E"
+   "accent": "#C8102E",
+   "i18n": {
+    "eu": {
+     "kicker": "F3 · 2029",
+     "title": "Proiektua amaituta",
+     "body": "Dena zabalik: oinezko eta bizikleta ibilbide jarraitua, metrorako eta autobus geltokietarako sarbide berriak, eta obra aurretik baino trafiko zarata gutxiago."
+    },
+    "en": {
+     "kicker": "F3 · 2029",
+     "title": "Project finished",
+     "body": "Everything open: a continuous walking and cycling route, new metro and bus stop accesses, and less traffic noise than before the works."
+    }
+   }
   },
   {
    "id": "c4",
@@ -266,7 +302,19 @@ window.__LAMIAKO_CFG = {
    "kicker": "CÓMO SE HACEN LOS VÍDEOS",
    "title": "Un vídeo por tramo",
    "body": "Cada tramo de la red se graba una vez por modo y por momento de la obra. El planificador encadena los clips que necesita tu ruta y muestra los datos de ese tramo.",
-   "accent": "#C7C7C7"
+   "accent": "#C7C7C7",
+   "i18n": {
+    "eu": {
+     "kicker": "NOLA EGITEN DIRA BIDEOAK",
+     "title": "Bideo bat tarte bakoitzeko",
+     "body": "Sareko tarte bakoitza behin grabatzen da modu eta obra une bakoitzeko. Planifikatzaileak zure ibilbideak behar dituen klipak kateatzen ditu eta tarte horren datuak erakusten ditu."
+    },
+    "en": {
+     "kicker": "HOW THE VIDEOS ARE MADE",
+     "title": "One video per leg",
+     "body": "Each leg of the network is filmed once per mode and per stage of the works. The planner chains the clips your route needs and shows the data for that leg."
+    }
+   }
   }
  ],
  "news": [
@@ -338,6 +386,27 @@ window.__LAMIAKO_CFG = {
   }
  ],
  "startPhase": "f2",
+ "notices": {
+  "none": {
+   "es": "En «{fase}» no hay recorrido posible entre estos dos puntos con este modo. Cambia de modo, de destino o de momento de obra para ver la alternativa.",
+   "eu": "«{fase}» fasean ez dago ibilbiderik bi puntu hauen artean modu honekin. Aldatu modua, helmuga edo obra-fasea aukera alternatiboa ikusteko.",
+   "en": "During «{fase}» there is no possible route between these two points in this mode. Change mode, destination or works phase to see the alternative."
+  },
+  "closed": {
+   "es": "En «{fase}» están cortados: {cortes}. La ruta mostrada ya incluye el desvío señalizado.",
+   "eu": "«{fase}» fasean itxita daude: {cortes}. Erakutsitako ibilbideak seinaleztatutako desbideratzea barne hartzen du.",
+   "en": "During «{fase}» these are closed: {cortes}. The route shown already includes the signposted detour."
+  }
+ },
+ "closed": {
+  "f1": [
+   "p_art~p_rom"
+  ],
+  "f2": [
+   "p_art~p_zug"
+  ],
+  "f3": []
+ },
  "videos": {
   "u_mtwvp587>u_mtwvpqwu|coche|f2": "videos/u-mtwvp587-u-mtwvpqwu-coche-f2.mp4",
   "u_mtwvp587>u_mtwvpqwu|coche|f2|aerea": "videos/u-mtwvp587-u-mtwvpqwu-coche-f2-aerea.mp4",
