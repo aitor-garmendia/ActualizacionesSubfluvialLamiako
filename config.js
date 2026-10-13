@@ -1,5 +1,5 @@
 window.__LAMIAKO_CFG = {
- "stamp": 1790003581293,
+ "stamp": 1791905717389,
  "nodes": [
   {
    "id": "p_zug",
@@ -427,8 +427,8 @@ window.__LAMIAKO_CFG = {
  },
  "videos": {
   "u_mtwvp587>u_mtwvpqwu|coche|f2": "videos/u-mtwvp587-u-mtwvpqwu-coche-f2.mp4",
-  "u_mtwvp587>u_mtwvpqwu|coche|f2|aerea": "videos/u-mtwvp587-u-mtwvpqwu-coche-f2-aerea.mp4",
   "u_mtx6z7b7>u_mtx70xfd|coche|f2": "videos/u-mtx6z7b7-u-mtx70xfd-coche-f2.mp4",
-  "u_mtx6z7b7>u_mtx70xfd|coche|f2|aerea": "videos/u-mtx6z7b7-u-mtx70xfd-coche-f2-aerea.mp4"
+  "u_mtx6z7b7>u_mtx70xfd|coche|f2|aerea": "videos/u-mtx6z7b7-u-mtx70xfd-coche-f2-aerea.mp4",
+  "u_mtwvp587>u_mtwvpqwu|coche|f2|aerea": "videos/u-mtwvp587-u-mtwvpqwu-coche-f2-aerea.mp4"
  }
 };
